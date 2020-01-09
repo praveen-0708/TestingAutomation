@@ -48,9 +48,6 @@ public class TestNGSampleTest {
     @Parameters({"firstCity"})
     @Test(description = "Enter First City")
     public void enterFirstCity(String firstCity) {
-
-        webDriver.findElement(By.xpath("//input[@placeholder='Add Time Zone, City or Town']")).sendKeys(firstCity);
-        webDriver.findElements(By.xpath("//div[@id='converter-quick-search-result']//a")).get(0).click();
         Assert.assertTrue(webDriver.findElement(By.xpath("//h1[@class='title']")).getText().contains(firstCity));
 
     }
@@ -58,10 +55,7 @@ public class TestNGSampleTest {
     @Parameters({"secondCity"})
     @Test(description = "Enter Second City")
     public void enterSecondCity(String secondCity) {
-        webDriver.findElement(By.xpath("//input[@placeholder='Add Time Zone, City or Town']")).sendKeys(secondCity);
-        webDriver.findElements(By.xpath("//div[@id='converter-quick-search-result']//a")).get(0).click();
         Assert.assertTrue(webDriver.findElement(By.xpath("//h1[@class='title']")).getText().contains(secondCity));
-
     }
 
     @Test(description = "Checking the time difference")
