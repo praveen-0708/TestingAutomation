@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.tests.TestNGSampleTest" duration-ms="13861" started-at="2020-01-09T10:01:16 IST" finished-at="2020-01-09T10:01:29 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13861" started-at="2020-01-09T10:01:16 IST" finished-at="2020-01-09T10:01:29 IST">
+      <class name="com.tests.TestNGSampleTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.tests.TestNGSampleTest@14bf9759]" name="openBrowser" is-config="true" duration-ms="5360" started-at="2020-01-09T10:01:16 IST" finished-at="2020-01-09T10:01:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="pageLoad()[pri:1, instance:com.tests.TestNGSampleTest@14bf9759]" name="pageLoad" duration-ms="63" started-at="2020-01-09T10:01:21 IST" description="Checking whether Savvy page is loaded or not." finished-at="2020-01-09T10:01:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLoad -->
+        <test-method status="PASS" signature="enterFirstCity()[pri:2, instance:com.tests.TestNGSampleTest@14bf9759]" name="enterFirstCity" duration-ms="2042" started-at="2020-01-09T10:01:21 IST" description="Enter First City" finished-at="2020-01-09T10:01:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFirstCity -->
+        <test-method status="PASS" signature="enterSecondCity()[pri:3, instance:com.tests.TestNGSampleTest@14bf9759]" name="enterSecondCity" duration-ms="2056" started-at="2020-01-09T10:01:23 IST" description="Enter Second City" finished-at="2020-01-09T10:01:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSecondCity -->
+        <test-method status="PASS" signature="checkTimeDifference()[pri:4, instance:com.tests.TestNGSampleTest@14bf9759]" name="checkTimeDifference" duration-ms="78" started-at="2020-01-09T10:01:25 IST" description="Checking the time difference" finished-at="2020-01-09T10:01:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTimeDifference -->
+        <test-method status="PASS" signature="checkSwapButton()[pri:5, instance:com.tests.TestNGSampleTest@14bf9759]" name="checkSwapButton" duration-ms="1399" started-at="2020-01-09T10:01:25 IST" description="Checking swap button" finished-at="2020-01-09T10:01:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSwapButton -->
+        <test-method status="PASS" signature="checkDelete()[pri:6, instance:com.tests.TestNGSampleTest@14bf9759]" name="checkDelete" duration-ms="1218" started-at="2020-01-09T10:01:27 IST" description="Checking delete button" finished-at="2020-01-09T10:01:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDelete -->
+        <test-method status="PASS" signature="changeDate()[pri:7, instance:com.tests.TestNGSampleTest@14bf9759]" name="changeDate" duration-ms="1292" started-at="2020-01-09T10:01:28 IST" description="Changing date" finished-at="2020-01-09T10:01:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeDate -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.tests.TestNGSampleTest@14bf9759]" name="closeBrowser" is-config="true" duration-ms="310" started-at="2020-01-09T10:01:29 IST" finished-at="2020-01-09T10:01:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tests.TestNGSampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.tests.TestNGSampleTest -->
+</testng-results>

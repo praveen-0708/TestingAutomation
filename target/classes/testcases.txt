@@ -1,0 +1,7 @@
+1.Checking whether Savvy page is loaded or not.
+2.Set First City.
+3.Set Second City.
+4.Checking the time difference.
+5.Checking whether the cities are swapped or not after clicking swap button.
+6.Checking whether the city is getting deleted or not.
+7.Changing date and checking whether it is reflected or not.
